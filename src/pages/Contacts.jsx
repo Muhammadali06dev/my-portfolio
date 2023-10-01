@@ -4,7 +4,7 @@ function Contacts() {
    return (
       <main className="py-16">
          <div className="align-items">
-            <h1 className="mb-8 text-4xl sm:mb-16 sm:text-6xl font-bold text-white text-center">Contacts</h1>
+            <h1 className="mb-8 text-4xl sm:mb-16 sm:text-6xl font-bold text-center ">Contacts</h1>
 
             <ul className="mx-auto max-w-xl flex flex-col items-center gap-y-5 sm:gap-y-10 text-center">
                <li className="text-base sm:text-lg  ">
