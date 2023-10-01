@@ -5,8 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "blackpure": "#171718",
+        "black-border": "#26292d",
+        "purple": "#5c62ec"
+
+      }
+    },
+
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 

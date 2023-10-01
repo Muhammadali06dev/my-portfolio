@@ -23,19 +23,19 @@ function App() {
         },
         {
           path: "projects",
-          element: <Projects/>,
+          element: <Projects />,
         },
         {
           path: "projects/:id",
-          element: <Project/>
+          element: <Project />
         }
       ]
     }
   ])
   return (
-    <>
-      <RouterProvider  router={routes}/>
-    </>
+    <div className="App">
+      <RouterProvider router={routes} />
+    </div>
   )
 }
 

@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.App {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+
+main {
+   flex-grow: 1;
+}
+
+.active {
+   position: relative
+}
+
+.active::before {
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 100%;
+   display: block;
+   height: 2px;
+   width: 100%;
+   background-color: #5c62ec;
+
+}
+
+.header {
+   background-image: url("./assets/header-bg.png");
+   background-repeat: no-repeat;
+   background-size: auto;
+   background-position: center center;
+}
+
+@layer {
+   .align-items {
+      @apply mx-auto px-4 max-w-[1200px] w-full
+   }
+}
