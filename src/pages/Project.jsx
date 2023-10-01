@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { projects } from "../helpers/ProjectsList";
+import { projects } from "../helper/projectList";
 import gitHubIcon from "../assets/gitHub.svg"
 
 const Project = () => {
