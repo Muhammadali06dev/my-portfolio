@@ -1,4 +1,5 @@
 import React from 'react'
+import Resume from "../assets/Resume.png"
 
 function Header() {
    return (
@@ -13,7 +14,7 @@ function Header() {
             <div className="mb-10 text-lg  ">
                <p className='mt-2'>with passion for learning and creating.</p>
             </div>
-            <a href="#!" className="inline-block px-7 py-3 rounded-md bg-purple text-white text-base font-medium trasnition duration-200 hover:opacity-80 active:relative active:top-px">
+            <a href={Resume} download="Resume" className="inline-block px-7 py-3 rounded-md bg-purple text-white text-base font-medium trasnition duration-200 hover:opacity-80 active:relative active:top-px">
                Download CV
             </a>
          </div>
