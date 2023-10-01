@@ -6,7 +6,7 @@ import project05 from "../img/typing_fast.png"
 import project06 from "../img/crud_todolist.png"
 
 
-const projects = [
+export const projects = [
    {
       title: 'Movies platform',
       skills: 'Javascript, HTML, CSS',
@@ -50,5 +50,3 @@ const projects = [
       link: "https://mh-crud-todolist.netlify.app/"
    },
 ];
-
-export { projects }

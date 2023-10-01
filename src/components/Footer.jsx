@@ -38,7 +38,7 @@ function Footer() {
                   </li>
                </ul>
                <div className="font-base">
-                  <p className="mt-2">© 2022 frontend-dev.com</p>
+                  <p className="mt-2">© 2023 Hojiakbarov Muhammadali</p>
                </div>
             </div>
          </div>

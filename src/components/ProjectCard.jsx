@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 
-const Project = ({ title, img, index }) => {
+function ProjectCard ({ title, img, index }){
    return (
       <Link to={`/project/${index}`}>
          <li className="max-w-[370px] bg-white shadow-md rounded-lg ">
@@ -12,4 +12,4 @@ const Project = ({ title, img, index }) => {
    );
 };
 
-export default Project;
+export default ProjectCard;

@@ -1,5 +1,5 @@
-import Project from "../components/Project"
-import { projects } from "../helpers/ProjectsList"
+import ProjectCard from "../components/ProjectCard"
+import { projects } from "../helper/projectList";
 
 function Projects() {
    return (
@@ -9,7 +9,7 @@ function Projects() {
             <ul className="flex justify-center flex-wrap gap-x-[30px] gap-y-[30px]">
                {projects.map((project, index) => {
                   return (
-                     <Project
+                     <ProjectCard
                         key={index}
                         title={project.title}
                         img={project.img}
