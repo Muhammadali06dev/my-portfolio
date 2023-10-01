@@ -32,7 +32,7 @@ function Navbar() {
 
 
 
-               <ul className="flex flex-wrap gap-y-2.5 items-center gap-x-10 text-base font-medium font-sans">
+               <ul className="flex flex-wrap gap-y-2.5 items-center gap-x-5 sm:gap-x-10 text-base font-medium font-sans">
                   <li className="">
                      <NavLink
                         to="/"

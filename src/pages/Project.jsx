@@ -5,6 +5,7 @@ import gitHubIcon from "../assets/gitHub.svg"
 const Project = () => {
    const { id } = useParams();
    const project = projects[id];
+   console.log(project)
 
    return (
       <section className="py-10 sm:py-16">
@@ -23,12 +24,17 @@ const Project = () => {
                   <p>Skills: {project.skills}</p>
                </div>
 
-               {project.gitHubLink && (
-                  <a href={project.gitHubLink} target="_blank" rel="noreferrer" className="btn btn-primary bg">
+               <div className="flex gap-x-5 flex-col gap-y-4 sm:flex-row">
+
+                  <a href={project.gitHubLink} target="_blank" rel="noreferrer" className="btn btn-primary">
                      <img src={gitHubIcon} alt="" />
                      GitHub repo
                   </a>
-               )}
+                  <a href={project.link} target="_blank" rel="noreferrer" className="btn btn-secondary px-14">
+                     Demo
+                  </a>
+               </div>
+
             </div>
          </div>
       </section>

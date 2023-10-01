@@ -27,7 +27,7 @@ function Footer() {
                      </a>
                   </li>
                   <li className="w-7">
-                     <a href="#!">
+                     <a href="https://github.com/Muhammadali06dev/">
                         <img src={gitHub} alt="Link" />
                      </a>
                   </li>
