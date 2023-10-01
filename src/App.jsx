@@ -26,7 +26,7 @@ function App() {
           element: <Projects />,
         },
         {
-          path: "projects/:id",
+          path: "project/:id",
           element: <Project />
         }
       ]
